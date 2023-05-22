@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="v3RZ40LVzHJ6o" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:lom="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>CAM 1.3</schemaversion>
+		<lom:lom>
+			<lom:general>
+				<lom:title>
+					<lom:string>Multi Tabs</lom:string>
+				</lom:title>
+			</lom:general>
+			<lom:educational>
+				<lom:typicalLearningTime>
+					<lom:duration>PT1H0M0S</lom:duration>
+				</lom:typicalLearningTime>
+			</lom:educational>
+			<lom:metaMetadata>
+				<lom:metadataSchema>LOMv1.0</lom:metadataSchema>
+				<lom:metadataSchema>SCORM_CAM_v1.3</lom:metadataSchema>
+			</lom:metaMetadata>
+		</lom:lom>
+	</metadata>
+	<organizations default="multi_tabs_organization">
+		<organization identifier="multi_tabs_organization">
+			<title>Multi Tabs</title>
+			<item identifier="AF1AF5A9-AEA1-492C-B218-5EB933C6FD37" identifierref="resource">
+				<title>Tabs</title>
+				<imsss:sequencing>
+					<imsss:deliveryControls completionSetByContent="true" objectiveSetByContent="true"/>
+			       	</imsss:sequencing>
+			</item>
+			<imsss:sequencing>
+				<imsss:controlMode flow="true"/>
+			</imsss:sequencing>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="resource" type="webcontent" adlcp:scormType="sco" href="res/index.html">
+			<file href="res/data/apple-touch-icon.png"/>
+<file href="res/data/browsersupport.js"/>
+<file href="res/data/favicon.ico"/>
+<file href="res/data/fonts/fnt0.woff"/>
+<file href="res/data/fonts/fnt1.woff"/>
+<file href="res/data/fonts/fnt2.woff"/>
+<file href="res/data/fonts/fnt3.woff"/>
+<file href="res/data/fonts/fnt4.woff"/>
+<file href="res/data/goodbye.html"/>
+<file href="res/data/html5-unsupported.html"/>
+<file href="res/data/html5.png"/>
+<file href="res/data/images/img-311cba4d0192b929e283aeac9ced982410b69add.jpg"/>
+<file href="res/data/images/img-3f5eec3b06a8aa3d66312172c98a6b07cb48987d.png"/>
+<file href="res/data/images/img-7c4bb3c55bfd63e58e743639f13deca84d1e43bf.jpg"/>
+<file href="res/data/lms.js"/>
+<file href="res/data/player.js"/>
+<file href="res/index.html"/>
+
+		</resource>
+	</resources>
+</manifest>
